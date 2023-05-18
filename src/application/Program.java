@@ -13,6 +13,7 @@ public class Program {
 		
 		//Department obj = new Department(1, "Books");
 		//Seller seller = new Seller(21, "Jose", "jose@@mail.com", new Date(), 3000.0, obj);
+		System.out.println("=== Test 1: Seller findById ===");
 		
 		SellerDao sellerDao = DaoFactory.createSellerDao();
 		
